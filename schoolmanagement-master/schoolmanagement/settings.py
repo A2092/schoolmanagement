@@ -136,3 +136,5 @@ EMAIL_HOST_PASSWORD = 'moment'  # host email password required
 # otherwise you will get SMTPAuthenticationError at /contactus
 # this process is required because google blocks apps authentication by default
 EMAIL_RECEIVING_USER = ['aadarsha2060@gmail.com']  # email on which you will receive messages sent from website
+
+LOGOUT_REDIRECT_URL = '/'
